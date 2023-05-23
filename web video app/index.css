@@ -1,0 +1,57 @@
+
+.flex-container{
+    display:flex;
+    background-color:lightgreen;
+  }
+  .flex-container > div{
+   
+    margin:10px;
+    padding:20px;
+    font-size:30px;
+  }
+  .atag{
+    padding-left:530px;
+    color:red;
+  }
+  video{
+    width:800px;
+    height:450px;
+    border-radius:10px;
+  }
+  .alb{
+    display:flex;
+    justify-content:center;
+    
+  }
+  .upload-atag{       
+    margin:20px;
+    font-size:16px;
+    color:blue;
+    font-size:25px;
+    padding-left:20px;
+    
+  }
+  .upload-atag > button{
+  
+    background-color:lightgreen;
+    padding:10px;
+    border-radius:20px;
+    border:none;
+    
+  }
+  .upload-atag > button >a{
+    text-decoration: none;
+          color: #006CFF;
+  }
+
+  .search-atag{
+    margin: 20px;
+    padding:10px;
+    font-size:25px;   
+    max-width:300px;    
+  }
+  .search-atag > a{   
+    color: #006CFF;
+    justify-content: center;
+    padding:10px;
+  }
